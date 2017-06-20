@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/warningbg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/gantan"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/warning_gantan"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:layout_below="@+id/gantan"
+        android:id="@+id/warntv"
+        android:padding="15dp"
+        android:textSize="10sp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.example.zdy.slideunlock_master.SlideUnLockView
+        android:id="@+id/unlockview"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/warntv"
+        android:paddingTop="20dp"
+        android:background="@drawable/slidebg"
+        app:sl_icon="@mipmap/war_hua"
+        app:sl_complete_icon="@mipmap/duihao"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+
+</RelativeLayout>

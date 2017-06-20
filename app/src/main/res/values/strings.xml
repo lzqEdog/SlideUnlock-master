@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SlideUnLockMaster</string>
+    <!--<string name="active_state_exception">激活状态异常</string>-->
+
+
+
+    <string name="warnint_n_e">我爱你，等你时，我觉得一日不见，如隔三秋；你朝我笑，我又觉得，三秋未见，不过一日。再见！</string>
+    <string name="warnin_n">我爱你凉爽的夏夜。窗户开敞，灯亮着。水果在碗中。你的头在我的肩上。一天中这些最愉悦的时刻。</string>
+    <string name="handle_fly">我爱你，好希望当你离开的那天可以踩中我偷偷埋好的地雷，这样我们就能永远在一起了，反正你走一步就会死，我离开你也活不了</string>
+    <string name="waypoint">没有一朵玫瑰是不带刺的没有一段感情是不带伤的，走过你走过的街算不算重逢吹过你吹过的风算不算相拥。愿天不再长，愿地不再久，愿我不再有</string>
+</resources>
+
